@@ -51,7 +51,7 @@ function playKey(value, timer) {
 
 
         var audioElement = document.createElement('audio');
-        log("audio/".concat(key.concat(".wav")));
+        //log("audio/".concat(key.concat(".wav")));
         audioElement.setAttribute('src', "audio/".concat(key.concat(".wav")));
         audioElement.setAttribute('autoplay', 'autoplay');
         audioElement.play();
