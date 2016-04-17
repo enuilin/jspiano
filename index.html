@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type='text/javascript' src='Piano.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="keys.css">
+    <script type='text/javascript' src='parse.js'></script>
+</head>
+<body>
+<div id="box">
+
+    <div id="keys">
+        <div class="red key C4"></div>
+        <div class="orange key D4"></div>
+        <div class="yellow key E4"></div>
+        <div class="green key F4"></div>
+        <div class="blue key G4"></div>
+        <div class="indigo key A4"></div>
+        <div class="violet key B4"></div>
+        <div class="key"></div>
+        <div class="red key C5"></div>
+        <div class="key"></div>
+
+        <div class="orange key D5"></div>
+        <div class="blackkey black DS"></div>
+
+        <div class="yellow key E5"></div>
+        <div class="green key F5"></div>
+        <div class="blue key G5"></div>
+    </div>
+</div>
+
+<button id="play">Play</button>
+<button id="record">Record</button>
+<button id="clear">clear</button>
+<br/>
+<div><p>To use: middle C is the N button. The other keys are all on the middle row with J = D5, H= B4, all the way down to [Enter] = B5 and
+    [Backspace] = C4. At that point I ran out of keys on my keyboard.<br/>
+    To record: Press the record button and bang out a tune. Press "Stop Recording" when you're done. "Play" will playback whatever is in the recording box.
+    <br/>
+
+    Ignore the log. A solitary black key is included as proof of concept and is the key "I". (Functionally it's the same as adding a white (rainbow) key, but I could only find .mp3 and those need to be converted and I ran out of time etc etc.</p></div>
+RECORDING: <p id="recording"></p>
+<br/>
+LOG: <p id="log"></p>
+
+
+
+
+</body>
+</html>
